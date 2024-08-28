@@ -1,0 +1,32 @@
+// You can add your native dependencies here
+dependencies {
+//  implementation 'androidx.multidex:multidex:2.0.1'
+}
+
+android {
+  compileSdkVersion 34
+  buildToolsVersion "34"
+  // ndkVersion ""
+
+  defaultConfig {
+    minSdkVersion 23
+    targetSdkVersion 34
+
+    // Version Information
+    versionCode 1
+    versionName "1.0.0"
+    manifestPlaceholders = [
+      appAuthRedirectScheme: 'com.googleusercontent.apps.71011346043-jil9gnkf35l8a2pqeq78vc7rq9kd8l4a'
+    ]
+    
+    generatedDensities = []
+  }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+  aaptOptions {
+    additionalParameters "--no-version-vectors"
+  }
+}

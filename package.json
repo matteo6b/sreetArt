@@ -1,0 +1,30 @@
+{
+  "name": "hola",
+  "main": "src/app.ts",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript/core": "8.8.2",
+    "@nstudio/nativescript-loading-indicator": "^4.3.4",
+    "@open-native/core": "2.0.0",
+    "@supabase/supabase-js": "^2.45.2",
+    "@triniwiz/nativescript-supabase": "2.0.0-rc.6",
+    "@triniwiz/nativescript-supabase-gotrue": "2.0.0-rc.6",
+    "@triniwiz/nativescript-supabase-postgrest": "2.0.0-rc.6",
+    "@triniwiz/nativescript-supabase-realtime": "2.0.0-rc.6",
+    "@triniwiz/nativescript-supabase-storage": "2.0.0-rc.6",
+    "nativescript-vue": "3.0.0-rc.2",
+    "react-native-app-auth": "^8.0.0"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.8.2",
+    "@nativescript/ios": "8.8.1",
+    "@nativescript/tailwind": "2.1.0",
+    "@nativescript/types": "8.8.0",
+    "@nativescript/webpack": "5.0.22",
+    "@types/node": "22.5.0",
+    "glob": "^10.0.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.5.4"
+  }
+}
