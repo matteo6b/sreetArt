@@ -4,7 +4,10 @@
   "version": "4.0.0",
   "private": true,
   "dependencies": {
+    "@nativescript-community/ui-material-bottom-navigation": "^7.2.61",
     "@nativescript/core": "8.8.2",
+    "@nativescript/geolocation": "^9.0.0",
+    "@nstudio/nativescript-cardview": "^2.0.2",
     "@nstudio/nativescript-loading-indicator": "^4.3.4",
     "@open-native/core": "2.0.0",
     "@supabase/supabase-js": "^2.45.2",
